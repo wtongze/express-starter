@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": [".git", "node_modules", "build"],
+  "watch": ["./src"],
+  "ext": "ts,json",
+  "execMap": {
+    "ts": "npm run start"
+  }
+}
