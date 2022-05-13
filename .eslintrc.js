@@ -12,6 +12,6 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'no-console': 'off',
-    quotes: 'single',
+    quotes: [2, 'single'],
   },
 };
