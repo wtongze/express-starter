@@ -18,7 +18,11 @@
   "plugins": ["import"],
   "rules": {
     "no-console": "off",
-    "quotes": [2, "single"]
+    "quotes": [2, "single", "avoid-escape"],
+    "import/order": [
+      2,
+      { "alphabetize": { "order": "asc", "caseInsensitive": true } }
+    ]
   },
   "settings": {
     "import/resolver": {
